@@ -70,4 +70,34 @@ body {
 			}	
 		}
 	}
+	.second {
+		.container {
+			div {
+				width: 430px;
+				margin-top: 50px;
+				h1 {
+					color: #16a085;
+					font-size: 24px;
+					font-style: bold;
+				}
+				p {
+					font-size: 16px;
+				}
+				.btn-success {
+					background-color: #16a085;
+					border-color: #16a085;
+					font-style: bold;
+					font-size: 14px;
+					// display: block;
+					margin: 40px auto;
+				}
+			}
+			div::after {
+				content: url('http://i63.tinypic.com/fkqipj.png');
+				position: relative;
+				top: -300px;
+				left: 350px;
+			}
+		}
+	}
 }
