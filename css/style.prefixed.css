@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Varela Round', sans-serif; }
 
 .container {
   max-width: 1024px;
@@ -28,5 +29,31 @@ body {
           padding: 35px 50px; }
         body .first nav .navbar-nav > li a:hover {
           color: red; }
+    body .first nav .home h1 {
+      color: white;
+      text-align: center;
+      margin-top: 200px;
+      font-style: bold;
+      font-size: 40px; }
+    body .first nav .home p {
+      color: white;
+      text-align: center;
+      font-size: 16px; }
+    body .first nav .home .btn-success {
+      background-color: #16a085;
+      border-color: #16a085;
+      font-style: bold;
+      font-size: 14px;
+      display: block;
+      margin: 40px auto; }
+    body .first nav div {
+      text-align: center; }
+      body .first nav div i {
+        color: white;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 185px; }
 
 /*# sourceMappingURL=style.prefixed.css.map */
