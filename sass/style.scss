@@ -55,6 +55,8 @@ body {
 					font-size: 14px;
 					display: block;
 					margin: 40px auto;
+					border-radius: 0;
+					padding: 10px 40px;
 				}
 			}
 			div {
@@ -71,16 +73,19 @@ body {
 		}
 	}
 	.second {
+		background-color: #f5f6f7;
 		.container {
 			div {
 				width: 430px;
 				margin-top: 50px;
+				height: 400px;
 				h1 {
 					color: #16a085;
 					font-size: 24px;
 					font-style: bold;
 				}
 				p {
+					margin-top: 30px;
 					font-size: 16px;
 				}
 				.btn-success {
@@ -88,8 +93,9 @@ body {
 					border-color: #16a085;
 					font-style: bold;
 					font-size: 14px;
-					// display: block;
 					margin: 40px auto;
+					border-radius: 0;
+					padding: 10px 40px;
 				}
 			}
 			div::after {
@@ -97,6 +103,117 @@ body {
 				position: relative;
 				top: -300px;
 				left: 350px;
+			}
+		}
+	}
+	.third {
+		margin-top: 150px;
+		.container {
+			.row {
+				div {
+					height: 410px;
+					h1 {
+						margin-top: 30px;
+						color: #16a085;
+						font-size: 24px;
+						font-style: bold;
+					}
+					.para1 {
+						margin-top: 30px;
+						font-size: 16px;
+					}
+					p {
+						i {
+							font-size: 30px;
+							padding-right: 20px;
+						}
+					}
+					.btn-success {
+						background-color: #16a085;
+						border-color: #16a085;
+						font-style: bold;
+						font-size: 14px;
+						margin: 40px auto;
+						border-radius: 0;
+						padding: 10px 40px;
+					}
+				}
+				div::after {
+					content: url('http://i63.tinypic.com/119pee1.png');
+					position: relative;
+					top: -350px;
+					left: -590px;
+					z-index: -1;
+				}
+			}
+		}
+	}
+	.fourth {
+		height: 480px;
+		background-color: #f5f6f7;
+		.triggers {
+			padding-top: 100px;
+			margin-bottom: 60px;
+			i {
+				float: right;
+				font-size: 30px;
+				padding-right: 20px;
+			}
+		}
+		.thumbnail {
+			border: none;
+			a {
+				background-color: none;
+				.camera {
+					width: 20%;
+					padding-top: 30px;
+				}
+				h1 {
+					text-align: center;
+					font-size: 18px;
+					font-style: bold;
+				}
+				p {
+					text-align: center;
+					font-size: 12px;
+				}
+			}	
+		}
+	}
+	.fifthy {
+		height: 800px;
+		background-image: url('http://i65.tinypic.com/ekkrcl.png');
+		overflow-x: hidden;
+		overflow-y: hidden;
+		background-size: cover;
+		background-position: center;
+		h1 {
+			font-size: 30px;
+			color: white;
+			text-align: center;
+			padding-top: 350px;
+			font-style: bold;
+		}
+		form {
+			text-align: center;
+			padding-top: 50px;
+			.sender {
+				height: 50px;
+				width: 300px;
+				border: none;
+					
+			}
+			.success {
+				display: inline-block;
+				width: 50px;
+				height: 50px;
+				background-color: #16a085;
+				border-color: #16a085;
+				color: white;
+				padding-top: 15px;
+				margin: -10px;
+				position: relative;
+				top: -1px; 
 			}
 		}
 	}

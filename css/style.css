@@ -45,7 +45,9 @@ body {
       font-style: bold;
       font-size: 14px;
       display: block;
-      margin: 40px auto; }
+      margin: 40px auto;
+      border-radius: 0;
+      padding: 10px 40px; }
     body .first nav div {
       text-align: center; }
       body .first nav div i {
@@ -55,25 +57,115 @@ body {
         text-align: center;
         font-size: 20px;
         margin-top: 185px; }
-  body .second .container div {
-    width: 430px;
-    margin-top: 50px; }
-    body .second .container div h1 {
-      color: #16a085;
-      font-size: 24px;
+  body .second {
+    background-color: #f5f6f7; }
+    body .second .container div {
+      width: 430px;
+      margin-top: 50px;
+      height: 400px; }
+      body .second .container div h1 {
+        color: #16a085;
+        font-size: 24px;
+        font-style: bold; }
+      body .second .container div p {
+        margin-top: 30px;
+        font-size: 16px; }
+      body .second .container div .btn-success {
+        background-color: #16a085;
+        border-color: #16a085;
+        font-style: bold;
+        font-size: 14px;
+        margin: 40px auto;
+        border-radius: 0;
+        padding: 10px 40px; }
+    body .second .container div::after {
+      content: url("http://i63.tinypic.com/fkqipj.png");
+      position: relative;
+      top: -300px;
+      left: 350px; }
+  body .third {
+    margin-top: 150px; }
+    body .third .container .row div {
+      height: 410px; }
+      body .third .container .row div h1 {
+        margin-top: 30px;
+        color: #16a085;
+        font-size: 24px;
+        font-style: bold; }
+      body .third .container .row div .para1 {
+        margin-top: 30px;
+        font-size: 16px; }
+      body .third .container .row div p i {
+        font-size: 30px;
+        padding-right: 20px; }
+      body .third .container .row div .btn-success {
+        background-color: #16a085;
+        border-color: #16a085;
+        font-style: bold;
+        font-size: 14px;
+        margin: 40px auto;
+        border-radius: 0;
+        padding: 10px 40px; }
+    body .third .container .row div::after {
+      content: url("http://i63.tinypic.com/119pee1.png");
+      position: relative;
+      top: -350px;
+      left: -590px;
+      z-index: -1; }
+  body .fourth {
+    height: 480px;
+    background-color: #f5f6f7; }
+    body .fourth .triggers {
+      padding-top: 100px;
+      margin-bottom: 60px; }
+      body .fourth .triggers i {
+        float: right;
+        font-size: 30px;
+        padding-right: 20px; }
+    body .fourth .thumbnail {
+      border: none; }
+      body .fourth .thumbnail a {
+        background-color: none; }
+        body .fourth .thumbnail a .camera {
+          width: 20%;
+          padding-top: 30px; }
+        body .fourth .thumbnail a h1 {
+          text-align: center;
+          font-size: 18px;
+          font-style: bold; }
+        body .fourth .thumbnail a p {
+          text-align: center;
+          font-size: 12px; }
+  body .fifthy {
+    height: 800px;
+    background-image: url("http://i65.tinypic.com/ekkrcl.png");
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-size: cover;
+    background-position: center; }
+    body .fifthy h1 {
+      font-size: 30px;
+      color: white;
+      text-align: center;
+      padding-top: 350px;
       font-style: bold; }
-    body .second .container div p {
-      font-size: 16px; }
-    body .second .container div .btn-success {
-      background-color: #16a085;
-      border-color: #16a085;
-      font-style: bold;
-      font-size: 14px;
-      margin: 40px auto; }
-  body .second .container div::after {
-    content: url("http://i63.tinypic.com/fkqipj.png");
-    position: relative;
-    top: -300px;
-    left: 350px; }
+    body .fifthy form {
+      text-align: center;
+      padding-top: 50px; }
+      body .fifthy form .sender {
+        height: 50px;
+        width: 300px;
+        border: none; }
+      body .fifthy form .success {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: #16a085;
+        border-color: #16a085;
+        color: white;
+        padding-top: 15px;
+        margin: -10px;
+        position: relative;
+        top: -1px; }
 
 /*# sourceMappingURL=style.css.map */
